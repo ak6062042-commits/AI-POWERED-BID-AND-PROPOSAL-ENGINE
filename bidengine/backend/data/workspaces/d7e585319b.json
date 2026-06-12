@@ -1,0 +1,84 @@
+{
+  "id": "d7e585319b",
+  "name": "Punjab e-Health Digital Records System",
+  "created_at": "2026-06-12T14:58:27.822718Z",
+  "status": "analyzed",
+  "source_file": "Punjab e-Health Digital Records System.docx",
+  "extraction": {
+    "deadlines": [],
+    "budget": [],
+    "mandatory_requirements": [
+      {
+        "id": "REQ-001",
+        "text": "Compliance is strong but 3 mandatory legal requirements are partially unmet"
+      }
+    ],
+    "evaluation_criteria": [],
+    "qa_sections": [],
+    "enrichment_used": false,
+    "full_text_preview": "📄 TEST PROPOSAL 1 — HIGH CONFLICT (Good for scoring + explainability bugs)\nPunjab e-Health Digital Records System\nWorkspace ID: b71f9caa22\nGenerated: 2026-06-12T09:40:12.118220Z\nBid Opportunity Assessment\nRecommendation: CONDITIONAL GO\nWin probability: 68.2%\nCompliance is strong but 3 mandatory legal requirements are partially unmet \nHigh technical alignment but weak regulatory documentation"
+  },
+  "checklist": [
+    {
+      "id": "REQ-001",
+      "requirement": "Compliance is strong but 3 mandatory legal requirements are partially unmet",
+      "short_label": "Compliance is strong but 3 mandatory legal requirements...",
+      "status": "gap",
+      "best_match": null,
+      "alternative_matches": []
+    }
+  ],
+  "checklist_summary": {
+    "total_requirements": 1,
+    "pass": 0,
+    "partial": 0,
+    "gap": 1,
+    "requirements_matched_pct": 0.0
+  },
+  "draft": [],
+  "scoring_inputs": {
+    "certifications_match_pct": 70.0,
+    "requirements_matched_pct": 0.0,
+    "past_relationship": 0,
+    "budget_alignment_score": 0.65,
+    "technical_score_pct": 40,
+    "estimated_competitor_count": 5,
+    "required_certifications_detected": [],
+    "rfp_budget_pkr": 0.0
+  },
+  "scoring_result": {
+    "win_probability": 0.02,
+    "win_probability_pct": 2.0,
+    "base_win_rate_pct": 63.3,
+    "model_train_accuracy_pct": 87.5,
+    "top_contributing_factors": [
+      {
+        "feature": "requirements_matched_pct",
+        "value": 0.0,
+        "contribution": -4.047
+      },
+      {
+        "feature": "past_relationship",
+        "value": 0,
+        "contribution": -1.549
+      },
+      {
+        "feature": "certifications_match_pct",
+        "value": 70.0,
+        "contribution": 0.404
+      },
+      {
+        "feature": "estimated_competitor_count",
+        "value": 5,
+        "contribution": 0.271
+      }
+    ]
+  },
+  "go_no_go": {
+    "decision": "NO-GO",
+    "reasons": [
+      "1 of 1 mandatory requirements (100.0%) are unmet -- high disqualification risk."
+    ],
+    "gap_pct": 100.0
+  }
+}

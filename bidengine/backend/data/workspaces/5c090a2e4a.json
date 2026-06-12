@@ -1,0 +1,623 @@
+{
+  "id": "5c090a2e4a",
+  "name": "PITB Digital Citizen Services - Complaint Tracking System(2)",
+  "created_at": "2026-06-12T15:10:05.559826Z",
+  "status": "analyzed",
+  "source_file": "PITB Digital Citizen Services - Complaint Tracking System.docx",
+  "extraction": {
+    "deadlines": [
+      {
+        "date": "",
+        "context": "This document was auto-drafted by the AI Bid & Proposal Response Engine. All sections marked [needs_review] should be verified by the bid manager before submission."
+      },
+      {
+        "date": "30th September 2026",
+        "context": "Bidders must submit both technical and financial proposals in separate envelopes before 16:00 hours on 30th September 2026."
+      },
+      {
+        "date": "",
+        "context": "Late submissions shall not be entertained under any circumstances."
+      },
+      {
+        "date": "",
+        "context": "Affidavit of no conflict of interest must be submitted."
+      }
+    ],
+    "budget": [
+      {
+        "amount": "PKR 68,000,000",
+        "context": "Our organization has delivered multiple government-grade workflow systems including “Digital Grievance Portal #18” (2023) for a provincial department valued at PKR 68,000,000."
+      }
+    ],
+    "mandatory_requirements": [
+      {
+        "id": "REQ-001",
+        "text": "Bidders must submit both technical and financial proposals in separate envelopes before 16:00 hours on 30th September 2026."
+      },
+      {
+        "id": "REQ-002",
+        "text": "Late submissions shall not be entertained under any circumstances."
+      },
+      {
+        "id": "REQ-003",
+        "text": "The bidder must have at least 7 years of organizational experience in software development."
+      },
+      {
+        "id": "REQ-004",
+        "text": "The bidder must be registered with FBR and provide valid tax documents."
+      },
+      {
+        "id": "REQ-005",
+        "text": "The system must support real-time complaint tracking with notifications via SMS and email."
+      },
+      {
+        "id": "REQ-006",
+        "text": "The bidder shall provide at least 5 similar projects completed in the last 5 years."
+      },
+      {
+        "id": "REQ-007",
+        "text": "The solution must include role-based access control (RBAC) and audit logging."
+      },
+      {
+        "id": "REQ-008",
+        "text": "The bidder must provide disaster recovery with RTO < 6 hours."
+      },
+      {
+        "id": "REQ-009",
+        "text": "The system must support Urdu and English interfaces."
+      },
+      {
+        "id": "REQ-010",
+        "text": "The bidder must provide post-deployment support for 24 months minimum."
+      },
+      {
+        "id": "REQ-011",
+        "text": "The bidder must provide CVs of at least 3 senior engineers (10+ years experience)."
+      },
+      {
+        "id": "REQ-012",
+        "text": "Affidavit of no conflict of interest must be submitted."
+      }
+    ],
+    "evaluation_criteria": [],
+    "qa_sections": [
+      {
+        "id": "Q1",
+        "question": "Relevant experience in government workflow / complaint systems"
+      },
+      {
+        "id": "Q2",
+        "question": "Technical architecture and security design"
+      },
+      {
+        "id": "Q3",
+        "question": "Data migration strategy"
+      },
+      {
+        "id": "Q4",
+        "question": "Training plan for government staff"
+      },
+      {
+        "id": "Q5",
+        "question": "Maintenance and support model"
+      }
+    ],
+    "enrichment_used": false,
+    "full_text_preview": "📄 Synthetic Test Bid Proposal\nPITB Digital Citizen Services - Complaint Tracking System\nWorkspace ID: 91af3c2d88\nGenerated: 2026-06-12T09:10:44.112901Z\nThis document was auto-drafted by the AI Bid & Proposal Response Engine. All sections marked [needs_review] should be verified by the bid manager before submission.\nBid Opportunity Assessment\nRecommendation: CONDITIONAL GO\nModeled win probability: 72.8% (historical base rate: 63.3%, model accuracy on training data: 87.5%)\nModeled win probability (72.8%) is above minimum threshold but below high-confidence band (85%). \n6 requirement(s) lack strong supporting evidence in capability library — mitigation required. \nCompliance Checklist\n11 pass / 3 partial / 5 gap out of 19 requirements (57.9% matched)\nRequirements\nBidders must submit both technical and financial proposals in separate envelopes before 16:00 hours on 30th September 2026.\nStatus: PARTIAL \nBest supporting evidence: Smart City Surveillance System #22 \nLate submissions shall not be entertained under any circumstances.\nStatus: GAP \nBest supporting evidence: NONE FOUND \nThe bidder must have at least 7 years of organizational experience in software development.\nStatus: PASS \nBest supporting evidence: Enterprise Case Management System #9 \nThe bidder must be registered with FBR and provide valid tax documents.\nStatus: PASS \nBest supporting evidence: ERP Tax Compliance Module #3 \nThe system must support real-time complaint tracking with notifications via SMS and email.\nStatus: PASS \nBest supporting evidence: Citizen Engagement Platform #12 \nThe bidder shall provide at least 5 similar projects completed in the last 5 years.\nStatus: PARTIAL \nBest supporting evidence: Digital Grievance Portal #18 \nThe solution must include role-based access control (RBAC) and audit logging.\nStatus: PASS \nBest supporting evidence: Government Workflow Automation #27 \nThe bidder must provide disaster recovery with RTO < 6 hours.\nStatus: PASS \nBest supporting evidence: Cloud Infrastructure"
+  },
+  "checklist": [
+    {
+      "id": "REQ-001",
+      "requirement": "Bidders must submit both technical and financial proposals in separate envelopes before 16:00 hours on 30th September 2026.",
+      "short_label": "Bidders must submit both technical and financial proposals...",
+      "status": "partial",
+      "best_match": {
+        "capability_id": "CAP-016",
+        "title": "Solar Power Plant Installation #16",
+        "similarity": 0.107,
+        "sector": "Energy",
+        "year_completed": 2019,
+        "contract_value_pkr": 250000000,
+        "client_type": "SME",
+        "certifications": [
+          "Microsoft Gold Partner",
+          "PMP Certified Team",
+          "AWS Advanced Tier Partner"
+        ],
+        "description": "Installed a 20 MW solar power plant including grid synchronization and a 12-month O&M contract for a SME client."
+      },
+      "alternative_matches": []
+    },
+    {
+      "id": "REQ-002",
+      "requirement": "Late submissions shall not be entertained under any circumstances.",
+      "short_label": "Late submissions shall not be entertained under any...",
+      "status": "gap",
+      "best_match": null,
+      "alternative_matches": []
+    },
+    {
+      "id": "REQ-003",
+      "requirement": "The bidder must have at least 7 years of organizational experience in software development.",
+      "short_label": "The bidder must have at least 7 years...",
+      "status": "partial",
+      "best_match": {
+        "capability_id": "CAP-023",
+        "title": "Custom Web Portal Development #23",
+        "similarity": 0.098,
+        "sector": "IT Services",
+        "year_completed": 2025,
+        "contract_value_pkr": 40000000,
+        "client_type": "SME",
+        "certifications": [
+          "PEC Registered",
+          "Microsoft Gold Partner"
+        ],
+        "description": "Built a citizen/customer-facing web portal with role-based access, payment gateway integration and analytics dashboard for a SME client."
+      },
+      "alternative_matches": [
+        {
+          "capability_id": "CAP-031",
+          "title": "Telemedicine Platform Development #31",
+          "similarity": 0.092,
+          "sector": "Healthcare IT",
+          "year_completed": 2022,
+          "contract_value_pkr": 40000000,
+          "client_type": "NGO / Donor-funded",
+          "certifications": [
+            "AWS Advanced Tier Partner",
+            "ISO 27001"
+          ],
+          "description": "Developed a telemedicine platform supporting video consultations and e-prescriptions, scaled to 8 registered doctors for a NGO / Donor-funded client."
+        },
+        {
+          "capability_id": "CAP-043",
+          "title": "Custom Web Portal Development #43",
+          "similarity": 0.091,
+          "sector": "IT Services",
+          "year_completed": 2024,
+          "contract_value_pkr": 12000000,
+          "client_type": "NGO / Donor-funded",
+          "certifications": [
+            "ISO 27001",
+            "AWS Advanced Tier Partner"
+          ],
+          "description": "Built a citizen/customer-facing web portal with role-based access, payment gateway integration and analytics dashboard for a NGO / Donor-funded client."
+        }
+      ]
+    },
+    {
+      "id": "REQ-004",
+      "requirement": "The bidder must be registered with FBR and provide valid tax documents.",
+      "short_label": "The bidder must be registered with FBR and...",
+      "status": "pass",
+      "best_match": {
+        "capability_id": "CAP-038",
+        "title": "Digital Tax Collection System #38",
+        "similarity": 0.245,
+        "sector": "Public Sector",
+        "year_completed": 2019,
+        "contract_value_pkr": 12000000,
+        "client_type": "SME",
+        "certifications": [
+          "AWS Advanced Tier Partner",
+          "PEC Registered",
+          "ISO 14001"
+        ],
+        "description": "Built a digital tax assessment and collection system covering 50 municipal units, including online payment integration for a SME client."
+      },
+      "alternative_matches": [
+        {
+          "capability_id": "CAP-018",
+          "title": "Digital Tax Collection System #18",
+          "similarity": 0.184,
+          "sector": "Public Sector",
+          "year_completed": 2022,
+          "contract_value_pkr": 5000000,
+          "client_type": "Private Enterprise",
+          "certifications": [
+            "ISO 14001",
+            "ISO 27001",
+            "OHSAS 18001"
+          ],
+          "description": "Built a digital tax assessment and collection system covering 20 municipal units, including online payment integration for a Private Enterprise client."
+        },
+        {
+          "capability_id": "CAP-011",
+          "title": "Telemedicine Platform Development #11",
+          "similarity": 0.09,
+          "sector": "Healthcare IT",
+          "year_completed": 2021,
+          "contract_value_pkr": 800000000,
+          "client_type": "Multinational Corporation",
+          "certifications": [
+            "PEC Registered",
+            "ISO 9001",
+            "ISO 27001"
+          ],
+          "description": "Developed a telemedicine platform supporting video consultations and e-prescriptions, scaled to 25 registered doctors for a Multinational Corporation client."
+        }
+      ]
+    },
+    {
+      "id": "REQ-005",
+      "requirement": "The system must support real-time complaint tracking with notifications via SMS and email.",
+      "short_label": "The system must support real-time complaint tracking with...",
+      "status": "pass",
+      "best_match": {
+        "capability_id": "CAP-032",
+        "title": "4G/LTE Network Rollout Support #32",
+        "similarity": 0.192,
+        "sector": "Telecom",
+        "year_completed": 2025,
+        "contract_value_pkr": 5000000,
+        "client_type": "SME",
+        "certifications": [
+          "ISO 14001"
+        ],
+        "description": "Provided site acquisition, civil works and equipment installation support for a 3-site 4G/LTE rollout for a SME client."
+      },
+      "alternative_matches": [
+        {
+          "capability_id": "CAP-012",
+          "title": "4G/LTE Network Rollout Support #12",
+          "similarity": 0.171,
+          "sector": "Telecom",
+          "year_completed": 2022,
+          "contract_value_pkr": 75000000,
+          "client_type": "NGO / Donor-funded",
+          "certifications": [
+            "PEC Registered"
+          ],
+          "description": "Provided site acquisition, civil works and equipment installation support for a 3-site 4G/LTE rollout for a NGO / Donor-funded client."
+        },
+        {
+          "capability_id": "CAP-047",
+          "title": "Fleet Management & Logistics Optimization #47",
+          "similarity": 0.071,
+          "sector": "Logistics",
+          "year_completed": 2024,
+          "contract_value_pkr": 250000000,
+          "client_type": "SME",
+          "certifications": [
+            "ISO 27001"
+          ],
+          "description": "Implemented a fleet tracking and route optimization system covering 25 vehicles, reducing fuel costs and delivery times for a SME client."
+        }
+      ]
+    },
+    {
+      "id": "REQ-006",
+      "requirement": "The bidder shall provide at least 5 similar projects completed in the last 5 years.",
+      "short_label": "The bidder shall provide at least 5 similar...",
+      "status": "gap",
+      "best_match": null,
+      "alternative_matches": []
+    },
+    {
+      "id": "REQ-007",
+      "requirement": "The solution must include role-based access control (RBAC) and audit logging.",
+      "short_label": "The solution must include role-based access control (RBAC)...",
+      "status": "pass",
+      "best_match": {
+        "capability_id": "CAP-023",
+        "title": "Custom Web Portal Development #23",
+        "similarity": 0.21,
+        "sector": "IT Services",
+        "year_completed": 2025,
+        "contract_value_pkr": 40000000,
+        "client_type": "SME",
+        "certifications": [
+          "PEC Registered",
+          "Microsoft Gold Partner"
+        ],
+        "description": "Built a citizen/customer-facing web portal with role-based access, payment gateway integration and analytics dashboard for a SME client."
+      },
+      "alternative_matches": [
+        {
+          "capability_id": "CAP-043",
+          "title": "Custom Web Portal Development #43",
+          "similarity": 0.195,
+          "sector": "IT Services",
+          "year_completed": 2024,
+          "contract_value_pkr": 12000000,
+          "client_type": "NGO / Donor-funded",
+          "certifications": [
+            "ISO 27001",
+            "AWS Advanced Tier Partner"
+          ],
+          "description": "Built a citizen/customer-facing web portal with role-based access, payment gateway integration and analytics dashboard for a NGO / Donor-funded client."
+        },
+        {
+          "capability_id": "CAP-003",
+          "title": "Custom Web Portal Development #3",
+          "similarity": 0.195,
+          "sector": "IT Services",
+          "year_completed": 2023,
+          "contract_value_pkr": 5000000,
+          "client_type": "Private Enterprise",
+          "certifications": [
+            "AWS Advanced Tier Partner",
+            "OHSAS 18001",
+            "ISO 27001"
+          ],
+          "description": "Built a citizen/customer-facing web portal with role-based access, payment gateway integration and analytics dashboard for a Private Enterprise client."
+        }
+      ]
+    },
+    {
+      "id": "REQ-008",
+      "requirement": "The bidder must provide disaster recovery with RTO < 6 hours.",
+      "short_label": "The bidder must provide disaster recovery with RTO...",
+      "status": "gap",
+      "best_match": null,
+      "alternative_matches": []
+    },
+    {
+      "id": "REQ-009",
+      "requirement": "The system must support Urdu and English interfaces.",
+      "short_label": "The system must support Urdu and English interfaces.",
+      "status": "pass",
+      "best_match": {
+        "capability_id": "CAP-032",
+        "title": "4G/LTE Network Rollout Support #32",
+        "similarity": 0.249,
+        "sector": "Telecom",
+        "year_completed": 2025,
+        "contract_value_pkr": 5000000,
+        "client_type": "SME",
+        "certifications": [
+          "ISO 14001"
+        ],
+        "description": "Provided site acquisition, civil works and equipment installation support for a 3-site 4G/LTE rollout for a SME client."
+      },
+      "alternative_matches": [
+        {
+          "capability_id": "CAP-012",
+          "title": "4G/LTE Network Rollout Support #12",
+          "similarity": 0.221,
+          "sector": "Telecom",
+          "year_completed": 2022,
+          "contract_value_pkr": 75000000,
+          "client_type": "NGO / Donor-funded",
+          "certifications": [
+            "PEC Registered"
+          ],
+          "description": "Provided site acquisition, civil works and equipment installation support for a 3-site 4G/LTE rollout for a NGO / Donor-funded client."
+        }
+      ]
+    },
+    {
+      "id": "REQ-010",
+      "requirement": "The bidder must provide post-deployment support for 24 months minimum.",
+      "short_label": "The bidder must provide post-deployment support for 24...",
+      "status": "partial",
+      "best_match": {
+        "capability_id": "CAP-032",
+        "title": "4G/LTE Network Rollout Support #32",
+        "similarity": 0.142,
+        "sector": "Telecom",
+        "year_completed": 2025,
+        "contract_value_pkr": 5000000,
+        "client_type": "SME",
+        "certifications": [
+          "ISO 14001"
+        ],
+        "description": "Provided site acquisition, civil works and equipment installation support for a 3-site 4G/LTE rollout for a SME client."
+      },
+      "alternative_matches": [
+        {
+          "capability_id": "CAP-012",
+          "title": "4G/LTE Network Rollout Support #12",
+          "similarity": 0.126,
+          "sector": "Telecom",
+          "year_completed": 2022,
+          "contract_value_pkr": 75000000,
+          "client_type": "NGO / Donor-funded",
+          "certifications": [
+            "PEC Registered"
+          ],
+          "description": "Provided site acquisition, civil works and equipment installation support for a 3-site 4G/LTE rollout for a NGO / Donor-funded client."
+        },
+        {
+          "capability_id": "CAP-024",
+          "title": "Highway Rehabilitation Project #24",
+          "similarity": 0.086,
+          "sector": "Construction",
+          "year_completed": 2019,
+          "contract_value_pkr": 40000000,
+          "client_type": "Multinational Corporation",
+          "certifications": [
+            "PEC Registered"
+          ],
+          "description": "Executed rehabilitation of a 30 km highway segment including asphalt overlay, drainage works and road safety signage for a Multinational Corporation client."
+        }
+      ]
+    },
+    {
+      "id": "REQ-011",
+      "requirement": "The bidder must provide CVs of at least 3 senior engineers (10+ years experience).",
+      "short_label": "The bidder must provide CVs of at least...",
+      "status": "partial",
+      "best_match": {
+        "capability_id": "CAP-013",
+        "title": "OSS/BSS Integration #13",
+        "similarity": 0.103,
+        "sector": "Telecom",
+        "year_completed": 2022,
+        "contract_value_pkr": 500000000,
+        "client_type": "Multinational Corporation",
+        "certifications": [
+          "ISO 14001",
+          "CMMI Level 3"
+        ],
+        "description": "Integrated OSS/BSS systems enabling automated billing and provisioning for 10 subscribers for a Multinational Corporation client."
+      },
+      "alternative_matches": [
+        {
+          "capability_id": "CAP-010",
+          "title": "Hospital Information System Deployment #10",
+          "similarity": 0.102,
+          "sector": "Healthcare IT",
+          "year_completed": 2024,
+          "contract_value_pkr": 75000000,
+          "client_type": "Private Enterprise",
+          "certifications": [
+            "ISO 14001",
+            "CMMI Level 3",
+            "ISO 27001"
+          ],
+          "description": "Deployed an integrated Hospital Information System (HIS) including EMR, lab and pharmacy modules across 15 facilities for a Private Enterprise client."
+        },
+        {
+          "capability_id": "CAP-027",
+          "title": "Fleet Management & Logistics Optimization #27",
+          "similarity": 0.091,
+          "sector": "Logistics",
+          "year_completed": 2024,
+          "contract_value_pkr": 500000000,
+          "client_type": "NGO / Donor-funded",
+          "certifications": [
+            "ISO 14001",
+            "Microsoft Gold Partner",
+            "ISO 27001"
+          ],
+          "description": "Implemented a fleet tracking and route optimization system covering 10 vehicles, reducing fuel costs and delivery times for a NGO / Donor-funded client."
+        }
+      ]
+    },
+    {
+      "id": "REQ-012",
+      "requirement": "Affidavit of no conflict of interest must be submitted.",
+      "short_label": "Affidavit of no conflict of interest must be...",
+      "status": "gap",
+      "best_match": null,
+      "alternative_matches": []
+    }
+  ],
+  "checklist_summary": {
+    "total_requirements": 12,
+    "pass": 4,
+    "partial": 4,
+    "gap": 4,
+    "requirements_matched_pct": 50.0
+  },
+  "draft": [
+    {
+      "id": "Q1",
+      "question": "Relevant experience in government workflow / complaint systems",
+      "draft_response": "Our organization is well positioned to address this requirement, drawing on relevant experience including \"Warehouse Automation Rollout #8\" (2024), a PKR 40,000,000 engagement delivered for a government client in the Logistics sector. This is further supported by additional relevant engagements, including \"Enterprise ERP Implementation #1\", demonstrating a consistent track record of delivery in this domain. Our team's relevant certifications -- CMMI Level 3, ISO 14001 -- underpin the quality and compliance assurance applied to this engagement. [Bid manager: please review and add project-specific details, named personnel, and quantified outcomes before final submission.]",
+      "evidence_used": [
+        {
+          "capability_id": "CAP-008",
+          "title": "Warehouse Automation Rollout #8"
+        },
+        {
+          "capability_id": "CAP-001",
+          "title": "Enterprise ERP Implementation #1"
+        }
+      ],
+      "status": "needs_review"
+    },
+    {
+      "id": "Q2",
+      "question": "Technical architecture and security design",
+      "draft_response": "Our organization does not currently have directly comparable project evidence on file for this section. We recommend either sourcing a relevant case study before submission or partnering with a subcontractor to strengthen this response.",
+      "evidence_used": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "Q3",
+      "question": "Data migration strategy",
+      "draft_response": "Our organization is well positioned to address this requirement, drawing on relevant experience including \"Enterprise ERP Implementation #1\" (2024), a PKR 75,000,000 engagement delivered for a government client in the IT Services sector. This is further supported by additional relevant engagements, including \"Enterprise ERP Implementation #41\", demonstrating a consistent track record of delivery in this domain. Our team's relevant certifications -- CMMI Level 3, ISO 14001, ISO 27001 -- underpin the quality and compliance assurance applied to this engagement. [Bid manager: please review and add project-specific details, named personnel, and quantified outcomes before final submission.]",
+      "evidence_used": [
+        {
+          "capability_id": "CAP-001",
+          "title": "Enterprise ERP Implementation #1"
+        },
+        {
+          "capability_id": "CAP-041",
+          "title": "Enterprise ERP Implementation #41"
+        }
+      ],
+      "status": "needs_review"
+    },
+    {
+      "id": "Q4",
+      "question": "Training plan for government staff",
+      "draft_response": "Our organization is well positioned to address this requirement, drawing on relevant experience including \"Enterprise ERP Implementation #1\" (2024), a PKR 75,000,000 engagement delivered for a government client in the IT Services sector. This is further supported by additional relevant engagements, including \"Learning Management System Rollout #34\", demonstrating a consistent track record of delivery in this domain. Our team's relevant certifications -- ISO 14001, Microsoft Gold Partner, OHSAS 18001 -- underpin the quality and compliance assurance applied to this engagement. [Bid manager: please review and add project-specific details, named personnel, and quantified outcomes before final submission.]",
+      "evidence_used": [
+        {
+          "capability_id": "CAP-001",
+          "title": "Enterprise ERP Implementation #1"
+        },
+        {
+          "capability_id": "CAP-034",
+          "title": "Learning Management System Rollout #34"
+        }
+      ],
+      "status": "needs_review"
+    },
+    {
+      "id": "Q5",
+      "question": "Maintenance and support model",
+      "draft_response": "Our organization is well positioned to address this requirement, drawing on relevant experience including \"4G/LTE Network Rollout Support #32\" (2025), a PKR 5,000,000 engagement delivered for a SME client in the Telecom sector. This is further supported by additional relevant engagements, including \"4G/LTE Network Rollout Support #12\", demonstrating a consistent track record of delivery in this domain. Our team's relevant certifications -- ISO 14001, PEC Registered -- underpin the quality and compliance assurance applied to this engagement. [Bid manager: please review and add project-specific details, named personnel, and quantified outcomes before final submission.]",
+      "evidence_used": [
+        {
+          "capability_id": "CAP-032",
+          "title": "4G/LTE Network Rollout Support #32"
+        },
+        {
+          "capability_id": "CAP-012",
+          "title": "4G/LTE Network Rollout Support #12"
+        }
+      ],
+      "status": "needs_review"
+    }
+  ],
+  "scoring_inputs": {
+    "certifications_match_pct": 70.0,
+    "requirements_matched_pct": 50.0,
+    "past_relationship": 0,
+    "budget_alignment_score": 0.51,
+    "technical_score_pct": 60.0,
+    "estimated_competitor_count": 5,
+    "required_certifications_detected": [],
+    "rfp_budget_pkr": 68000000.0
+  },
+  "scoring_result": {
+    "win_probability": 0.254,
+    "win_probability_pct": 25.4,
+    "base_win_rate_pct": 63.3,
+    "model_train_accuracy_pct": 87.5,
+    "top_contributing_factors": [
+      {
+        "feature": "past_relationship",
+        "value": 0,
+        "contribution": -1.549
+      },
+      {
+        "feature": "requirements_matched_pct",
+        "value": 50.0,
+        "contribution": -0.94
+      },
+      {
+        "feature": "budget_alignment_score",
+        "value": 0.51,
+        "contribution": -0.419
+      },
+      {
+        "feature": "certifications_match_pct",
+        "value": 70.0,
+        "contribution": 0.404
+      }
+    ]
+  },
+  "go_no_go": {
+    "decision": "NO-GO",
+    "reasons": [
+      "4 of 12 mandatory requirements (33.3%) are unmet -- high disqualification risk."
+    ],
+    "gap_pct": 33.3
+  }
+}

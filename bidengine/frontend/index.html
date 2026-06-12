@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bid &amp; Proposal Response Engine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">BR</div>
+      <div class="brand-text">
+        <div class="brand-title">Bid Response Engine</div>
+        <div class="brand-sub">Tender intelligence workspace</div>
+      </div>
+    </div>
+
+    <button class="new-workspace-btn" id="newWorkspaceBtn">
+      <span class="plus">+</span> New RFP workspace
+    </button>
+
+    <div class="sidebar-section-label">Workspaces</div>
+    <div class="workspace-list" id="workspaceList">
+      <div class="empty-state">No workspaces yet. Create one to begin.</div>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="status-pill" id="apiStatus">
+        <span class="status-dot"></span> connecting…
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+
+    <!-- ---- Welcome / empty state ---- -->
+    <section class="view" id="view-welcome">
+      <div class="welcome">
+        <div class="welcome-eyebrow">AI-powered procurement intelligence</div>
+        <h1>Turn a 200-page tender into a scored, drafted proposal in minutes.</h1>
+        <p class="welcome-lede">
+          Upload an RFP, RFQ, or Tender document. The engine extracts mandatory
+          requirements, deadlines and evaluation criteria, matches them against
+          your capability library, drafts a proposal response, and scores the
+          opportunity's win probability — with a GO / NO-GO recommendation.
+        </p>
+        <button class="cta-btn" id="welcomeNewBtn">Create your first workspace</button>
+
+        <div class="welcome-steps">
+          <div class="welcome-step">
+            <div class="step-num">01</div>
+            <div class="step-title">Ingest</div>
+            <div class="step-desc">Upload a PDF or DOCX tender. Requirements, deadlines, budget and evaluation criteria are extracted automatically.</div>
+          </div>
+          <div class="welcome-step">
+            <div class="step-num">02</div>
+            <div class="step-title">Match</div>
+            <div class="step-desc">Each requirement is matched against your capability library and flagged pass / partial / gap.</div>
+          </div>
+          <div class="welcome-step">
+            <div class="step-num">03</div>
+            <div class="step-title">Draft</div>
+            <div class="step-desc">A structured proposal response is drafted for every question, citing relevant past projects.</div>
+          </div>
+          <div class="welcome-step">
+            <div class="step-num">04</div>
+            <div class="step-title">Decide</div>
+            <div class="step-desc">A win-probability model trained on past bids produces a GO / NO-GO call with explainable drivers.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- Workspace view ---- -->
+    <section class="view" id="view-workspace" style="display:none;">
+
+      <header class="workspace-header">
+        <div>
+          <div class="workspace-eyebrow" id="wsStatusBadge">New</div>
+          <h1 id="wsTitle">Untitled RFP</h1>
+        </div>
+        <div class="workspace-header-actions">
+          <button class="btn btn-ghost" id="exportBtn" disabled>Export proposal (.docx)</button>
+        </div>
+      </header>
+
+      <nav class="tabs" id="tabs">
+        <button class="tab active" data-tab="upload">1 · Upload &amp; extraction</button>
+        <button class="tab" data-tab="checklist">2 · Compliance checklist</button>
+        <button class="tab" data-tab="draft">3 · Proposal draft</button>
+        <button class="tab" data-tab="dashboard">4 · Win dashboard</button>
+      </nav>
+
+      <!-- TAB: Upload -->
+      <div class="tab-panel active" id="panel-upload">
+        <div class="panel-grid">
+          <div class="card">
+            <h3>Upload tender document</h3>
+            <p class="card-hint">Accepted formats: PDF, DOCX, TXT. The sample RFP is preloaded for quick testing.</p>
+            <div class="dropzone" id="dropzone">
+              <input type="file" id="fileInput" accept=".pdf,.docx,.txt" hidden>
+              <div class="dropzone-icon">⇪</div>
+              <div class="dropzone-text">Drop a file here or <span class="link">browse</span></div>
+              <div class="dropzone-file" id="dropzoneFile"></div>
+            </div>
+            <button class="btn btn-primary" id="uploadBtn" disabled>Extract requirements</button>
+          </div>
+
+          <div class="card" id="extractionSummaryCard" style="display:none;">
+            <h3>Extraction summary</h3>
+            <div class="metric-row" id="extractionMetrics"></div>
+
+            <div class="extract-section">
+              <h4>Key dates</h4>
+              <div class="tag-list" id="extractDeadlines"></div>
+            </div>
+            <div class="extract-section">
+              <h4>Budget</h4>
+              <div class="tag-list" id="extractBudget"></div>
+            </div>
+            <div class="extract-section">
+              <h4>Evaluation criteria</h4>
+              <div class="eval-bars" id="extractEvalCriteria"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="analyzeCard" style="display:none;">
+          <h3>Run analysis</h3>
+          <p class="card-hint">Set opportunity context, then match requirements to your capability library, generate the proposal draft, and score win probability.</p>
+          <div class="analyze-controls">
+            <label class="field">
+              <span>Estimated competitor count</span>
+              <input type="range" id="competitorSlider" min="1" max="10" value="5">
+              <span class="field-value" id="competitorValue">5</span>
+            </label>
+            <label class="field checkbox-field">
+              <input type="checkbox" id="pastRelationshipCheckbox">
+              <span>We have an existing relationship with this client</span>
+            </label>
+            <label class="field checkbox-field">
+              <input type="checkbox" id="useLlmCheckbox" checked>
+              <span>Use LLM enrichment for extraction &amp; draft writing (requires ANTHROPIC_API_KEY)</span>
+            </label>
+          </div>
+          <button class="btn btn-primary btn-large" id="analyzeBtn">Run full analysis →</button>
+        </div>
+      </div>
+
+      <!-- TAB: Checklist -->
+      <div class="tab-panel" id="panel-checklist">
+        <div class="placeholder" id="checklistPlaceholder">Run analysis to generate the compliance checklist.</div>
+        <div id="checklistContent" style="display:none;">
+          <div class="checklist-summary" id="checklistSummary"></div>
+          <div class="checklist-table" id="checklistTable"></div>
+        </div>
+      </div>
+
+      <!-- TAB: Draft -->
+      <div class="tab-panel" id="panel-draft">
+        <div class="placeholder" id="draftPlaceholder">Run analysis to generate the proposal draft.</div>
+        <div id="draftContent" style="display:none;"></div>
+      </div>
+
+      <!-- TAB: Dashboard -->
+      <div class="tab-panel" id="panel-dashboard">
+        <div class="placeholder" id="dashboardPlaceholder">Run analysis to see the win-probability dashboard.</div>
+        <div id="dashboardContent" style="display:none;"></div>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+<!-- New workspace modal -->
+<div class="modal-overlay" id="modalOverlay" style="display:none;">
+  <div class="modal">
+    <h3>New RFP workspace</h3>
+    <p class="card-hint">Give this opportunity a name. You can rename it later.</p>
+    <input type="text" id="workspaceNameInput" placeholder="e.g. PITB ICMS — District Case Management System" class="text-input">
+    <div class="modal-actions">
+      <button class="btn btn-ghost" id="modalCancelBtn">Cancel</button>
+      <button class="btn btn-primary" id="modalCreateBtn">Create workspace</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

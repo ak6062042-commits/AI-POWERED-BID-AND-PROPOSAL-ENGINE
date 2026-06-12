@@ -1,0 +1,92 @@
+[
+  {
+    "criterion": "Technical Methodology",
+    "sector": "IT Services",
+    "typical_weight_pct": 30,
+    "description": "Soundness and clarity of the proposed technical approach."
+  },
+  {
+    "criterion": "Team Experience & CVs",
+    "sector": "All",
+    "typical_weight_pct": 15,
+    "description": "Relevant qualifications and past experience of key personnel."
+  },
+  {
+    "criterion": "Past Performance / Track Record",
+    "sector": "All",
+    "typical_weight_pct": 15,
+    "description": "Evidence of successfully delivered similar projects."
+  },
+  {
+    "criterion": "Financial Proposal / Cost",
+    "sector": "All",
+    "typical_weight_pct": 30,
+    "description": "Competitiveness and realism of the price quoted."
+  },
+  {
+    "criterion": "Compliance with Specifications",
+    "sector": "Construction",
+    "typical_weight_pct": 25,
+    "description": "Adherence to technical specifications and standards (e.g. PEC)."
+  },
+  {
+    "criterion": "Project Management Plan",
+    "sector": "All",
+    "typical_weight_pct": 10,
+    "description": "Quality of work plan, schedule, and risk management approach."
+  },
+  {
+    "criterion": "Local Presence / Resources",
+    "sector": "Logistics",
+    "typical_weight_pct": 10,
+    "description": "Availability of local offices, fleet, or warehousing."
+  },
+  {
+    "criterion": "Certifications & Quality Standards",
+    "sector": "All",
+    "typical_weight_pct": 10,
+    "description": "Possession of relevant ISO / industry certifications."
+  },
+  {
+    "criterion": "Sustainability / HSE Plan",
+    "sector": "Construction",
+    "typical_weight_pct": 10,
+    "description": "Health, safety, environment, and sustainability commitments."
+  },
+  {
+    "criterion": "Innovation / Value-add",
+    "sector": "IT Services",
+    "typical_weight_pct": 10,
+    "description": "Additional value, automation, or innovation beyond minimum scope."
+  },
+  {
+    "criterion": "Data Security & Privacy",
+    "sector": "Healthcare IT",
+    "typical_weight_pct": 15,
+    "description": "Approach to securing sensitive data and regulatory compliance."
+  },
+  {
+    "criterion": "Scalability",
+    "sector": "Telecom",
+    "typical_weight_pct": 10,
+    "description": "Ability of the proposed solution to scale with future demand."
+  },
+  {
+    "criterion": "Training & Knowledge Transfer",
+    "sector": "Education",
+    "typical_weight_pct": 10,
+    "description": "Plan for transferring skills and knowledge to client staff."
+  },
+  {
+    "criterion": "Maintenance & Support (SLA)",
+    "sector": "IT Services",
+    "typical_weight_pct": 10,
+    "description": "Quality and responsiveness of post-deployment support commitments."
+  },
+  {
+    "criterion": "Local Content / SME Participation",
+    "sector": "Public Sector",
+    "typical_weight_pct": 10,
+    "description": "Extent of local sourcing, employment or SME sub-contracting."
+  }
+]

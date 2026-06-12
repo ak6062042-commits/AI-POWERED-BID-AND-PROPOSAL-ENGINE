@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "CAP-001",
+    "title": "Enterprise ERP Implementation #1",
+    "sector": "IT Services",
+    "description": "Designed and deployed a cloud-based ERP covering finance, HR and procurement modules for a Government client, including data migration and staff training.",
+    "certifications": [
+      "ISO 14001"
+    ],
+    "year_completed": 2024,
+    "contract_value_pkr": 75000000,
+    "duration_months": 6,
+    "client_type": "Government",
+    "tags": [
+      "it services",
+      "government",
+      "iso 14001"
+    ]
+  },
+  {
+    "id": "CAP-002",
+    "title": "Network Infrastructure Upgrade #2",
+    "sector": "IT Services",
+    "description": "Upgraded core network infrastructure including routers, switches and a redundant fibre backbone across 5 regional offices for a SME client.",
+    "certifications": [
+      "ISO 27001"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 250000000,
+    "duration_months": 2,
+    "client_type": "SME",
+    "tags": [
+      "it services",
+      "sme",
+      "iso 27001"
+    ]
+  },
+  {
+    "id": "CAP-003",
+    "title": "Custom Web Portal Development #3",
+    "sector": "IT Services",
+    "description": "Built a citizen/customer-facing web portal with role-based access, payment gateway integration and analytics dashboard for a Private Enterprise client.",
+    "certifications": [
+      "AWS Advanced Tier Partner",
+      "OHSAS 18001",
+      "ISO 27001"
+    ],
+    "year_completed": 2023,
+    "contract_value_pkr": 5000000,
+    "duration_months": 6,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "it services",
+      "private enterprise",
+      "aws advanced tier partner",
+      "ohsas 18001",
+      "iso 27001"
+    ]
+  },
+  {
+    "id": "CAP-004",
+    "title": "Highway Rehabilitation Project #4",
+    "sector": "Construction",
+    "description": "Executed rehabilitation of a 25 km highway segment including asphalt overlay, drainage works and road safety signage for a SME client.",
+    "certifications": [
+      "OHSAS 18001",
+      "PEC Registered",
+      "ISO 14001"
+    ],
+    "year_completed": 2021,
+    "contract_value_pkr": 5000000,
+    "duration_months": 4,
+    "client_type": "SME",
+    "tags": [
+      "construction",
+      "sme",
+      "ohsas 18001",
+      "pec registered",
+      "iso 14001"
+    ]
+  },
+  {
+    "id": "CAP-005",
+    "title": "Commercial Building Construction #5",
+    "sector": "Construction",
+    "description": "Delivered turnkey construction of a 8-storey commercial building including civil works, electromechanical fit-out and HVAC for a Private Enterprise client.",
+    "certifications": [
+      "OHSAS 18001"
+    ],
+    "year_completed": 2025,
+    "contract_value_pkr": 120000000,
+    "duration_months": 3,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "construction",
+      "private enterprise",
+      "ohsas 18001"
+    ]
+  },
+  {
+    "id": "CAP-006",
+    "title": "Water Supply Scheme #6",
+    "sector": "Construction",
+    "description": "Constructed a water supply scheme covering 5 households including overhead tanks, distribution network and filtration plant for a NGO / Donor-funded client.",
+    "certifications": [
+      "Microsoft Gold Partner"
+    ],
+    "year_completed": 2025,
+    "contract_value_pkr": 120000000,
+    "duration_months": 9,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "construction",
+      "ngo / donor-funded",
+      "microsoft gold partner"
+    ]
+  },
+  {
+    "id": "CAP-007",
+    "title": "Fleet Management & Logistics Optimization #7",
+    "sector": "Logistics",
+    "description": "Implemented a fleet tracking and route optimization system covering 30 vehicles, reducing fuel costs and delivery times for a Government client.",
+    "certifications": [
+      "PEC Registered",
+      "CMMI Level 3",
+      "AWS Advanced Tier Partner"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 12000000,
+    "duration_months": 9,
+    "client_type": "Government",
+    "tags": [
+      "logistics",
+      "government",
+      "pec registered",
+      "cmmi level 3",
+      "aws advanced tier partner"
+    ]
+  },
+  {
+    "id": "CAP-008",
+    "title": "Warehouse Automation Rollout #8",
+    "sector": "Logistics",
+    "description": "Rolled out barcode-based inventory and warehouse management automation across 5 warehouses for a Government client.",
+    "certifications": [
+      "CMMI Level 3"
+    ],
+    "year_completed": 2024,
+    "contract_value_pkr": 40000000,
+    "duration_months": 9,
+    "client_type": "Government",
+    "tags": [
+      "logistics",
+      "government",
+      "cmmi level 3"
+    ]
+  },
+  {
+    "id": "CAP-009",
+    "title": "Last-Mile Delivery Network Setup #9",
+    "sector": "Logistics",
+    "description": "Established a last-mile delivery network covering 5 cities including hub setup and rider onboarding for a Multinational Corporation client.",
+    "certifications": [
+      "PEC Registered"
+    ],
+    "year_completed": 2021,
+    "contract_value_pkr": 500000000,
+    "duration_months": 12,
+    "client_type": "Multinational Corporation",
+    "tags": [
+      "logistics",
+      "multinational corporation",
+      "pec registered"
+    ]
+  },
+  {
+    "id": "CAP-010",
+    "title": "Hospital Information System Deployment #10",
+    "sector": "Healthcare IT",
+    "description": "Deployed an integrated Hospital Information System (HIS) including EMR, lab and pharmacy modules across 15 facilities for a Private Enterprise client.",
+    "certifications": [
+      "ISO 14001",
+      "CMMI Level 3",
+      "ISO 27001"
+    ],
+    "year_completed": 2024,
+    "contract_value_pkr": 75000000,
+    "duration_months": 3,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "healthcare it",
+      "private enterprise",
+      "iso 14001",
+      "cmmi level 3",
+      "iso 27001"
+    ]
+  },
+  {
+    "id": "CAP-011",
+    "title": "Telemedicine Platform Development #11",
+    "sector": "Healthcare IT",
+    "description": "Developed a telemedicine platform supporting video consultations and e-prescriptions, scaled to 25 registered doctors for a Multinational Corporation client.",
+    "certifications": [
+      "PEC Registered",
+      "ISO 9001",
+      "ISO 27001"
+    ],
+    "year_completed": 2021,
+    "contract_value_pkr": 800000000,
+    "duration_months": 6,
+    "client_type": "Multinational Corporation",
+    "tags": [
+      "healthcare it",
+      "multinational corporation",
+      "pec registered",
+      "iso 9001",
+      "iso 27001"
+    ]
+  },
+  {
+    "id": "CAP-012",
+    "title": "4G/LTE Network Rollout Support #12",
+    "sector": "Telecom",
+    "description": "Provided site acquisition, civil works and equipment installation support for a 3-site 4G/LTE rollout for a NGO / Donor-funded client.",
+    "certifications": [
+      "PEC Registered"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 75000000,
+    "duration_months": 3,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "telecom",
+      "ngo / donor-funded",
+      "pec registered"
+    ]
+  },
+  {
+    "id": "CAP-013",
+    "title": "OSS/BSS Integration #13",
+    "sector": "Telecom",
+    "description": "Integrated OSS/BSS systems enabling automated billing and provisioning for 10 subscribers for a Multinational Corporation client.",
+    "certifications": [
+      "ISO 14001",
+      "CMMI Level 3"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 500000000,
+    "duration_months": 4,
+    "client_type": "Multinational Corporation",
+    "tags": [
+      "telecom",
+      "multinational corporation",
+      "iso 14001",
+      "cmmi level 3"
+    ]
+  },
+  {
+    "id": "CAP-014",
+    "title": "Learning Management System Rollout #14",
+    "sector": "Education",
+    "description": "Implemented a Learning Management System (LMS) for 30 institutions including content migration and faculty training for a SME client.",
+    "certifications": [
+      "CMMI Level 3",
+      "ISO 14001"
+    ],
+    "year_completed": 2021,
+    "contract_value_pkr": 250000000,
+    "duration_months": 18,
+    "client_type": "SME",
+    "tags": [
+      "education",
+      "sme",
+      "cmmi level 3",
+      "iso 14001"
+    ]
+  },
+  {
+    "id": "CAP-015",
+    "title": "School Digitization Programme #15",
+    "sector": "Education",
+    "description": "Digitized administrative and academic records for 30 schools, including biometric attendance and a parent-facing mobile app for a Multinational Corporation client.",
+    "certifications": [
+      "ISO 14001"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 5000000,
+    "duration_months": 3,
+    "client_type": "Multinational Corporation",
+    "tags": [
+      "education",
+      "multinational corporation",
+      "iso 14001"
+    ]
+  },
+  {
+    "id": "CAP-016",
+    "title": "Solar Power Plant Installation #16",
+    "sector": "Energy",
+    "description": "Installed a 20 MW solar power plant including grid synchronization and a 12-month O&M contract for a SME client.",
+    "certifications": [
+      "Microsoft Gold Partner",
+      "PMP Certified Team",
+      "AWS Advanced Tier Partner"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 250000000,
+    "duration_months": 18,
+    "client_type": "SME",
+    "tags": [
+      "energy",
+      "sme",
+      "microsoft gold partner",
+      "pmp certified team",
+      "aws advanced tier partner"
+    ]
+  },
+  {
+    "id": "CAP-017",
+    "title": "Energy Audit & Efficiency Programme #17",
+    "sector": "Energy",
+    "description": "Conducted an energy audit across 3 facilities and implemented efficiency retrofits reducing consumption for a Government client.",
+    "certifications": [
+      "PEC Registered",
+      "ISO 27001",
+      "ISO 14001"
+    ],
+    "year_completed": 2024,
+    "contract_value_pkr": 800000000,
+    "duration_months": 9,
+    "client_type": "Government",
+    "tags": [
+      "energy",
+      "government",
+      "pec registered",
+      "iso 27001",
+      "iso 14001"
+    ]
+  },
+  {
+    "id": "CAP-018",
+    "title": "Digital Tax Collection System #18",
+    "sector": "Public Sector",
+    "description": "Built a digital tax assessment and collection system covering 20 municipal units, including online payment integration for a Private Enterprise client.",
+    "certifications": [
+      "ISO 14001",
+      "ISO 27001",
+      "OHSAS 18001"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 5000000,
+    "duration_months": 9,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "public sector",
+      "private enterprise",
+      "iso 14001",
+      "iso 27001",
+      "ohsas 18001"
+    ]
+  },
+  {
+    "id": "CAP-019",
+    "title": "Citizen Grievance Redressal Portal #19",
+    "sector": "Public Sector",
+    "description": "Developed an online grievance redressal and case-tracking portal handling over 12 cases annually for a SME client.",
+    "certifications": [
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "year_completed": 2023,
+    "contract_value_pkr": 40000000,
+    "duration_months": 4,
+    "client_type": "SME",
+    "tags": [
+      "public sector",
+      "sme",
+      "iso 14001",
+      "iso 9001"
+    ]
+  },
+  {
+    "id": "CAP-020",
+    "title": "Cybersecurity Assessment & Hardening #20",
+    "sector": "IT Services",
+    "description": "Performed a cybersecurity risk assessment and hardened infrastructure for 50 critical systems, aligned with ISO 27001 for a NGO / Donor-funded client.",
+    "certifications": [
+      "PMP Certified Team",
+      "CMMI Level 3"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 5000000,
+    "duration_months": 3,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "it services",
+      "ngo / donor-funded",
+      "pmp certified team",
+      "cmmi level 3"
+    ]
+  },
+  {
+    "id": "CAP-021",
+    "title": "Enterprise ERP Implementation #21",
+    "sector": "IT Services",
+    "description": "Designed and deployed a cloud-based ERP covering finance, HR and procurement modules for a Private Enterprise client, including data migration and staff training.",
+    "certifications": [
+      "Microsoft Gold Partner",
+      "ISO 27001",
+      "OHSAS 18001"
+    ],
+    "year_completed": 2023,
+    "contract_value_pkr": 12000000,
+    "duration_months": 3,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "it services",
+      "private enterprise",
+      "microsoft gold partner",
+      "iso 27001",
+      "ohsas 18001"
+    ]
+  },
+  {
+    "id": "CAP-022",
+    "title": "Network Infrastructure Upgrade #22",
+    "sector": "IT Services",
+    "description": "Upgraded core network infrastructure including routers, switches and a redundant fibre backbone across 30 regional offices for a Private Enterprise client.",
+    "certifications": [
+      "AWS Advanced Tier Partner",
+      "OHSAS 18001"
+    ],
+    "year_completed": 2020,
+    "contract_value_pkr": 500000000,
+    "duration_months": 4,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "it services",
+      "private enterprise",
+      "aws advanced tier partner",
+      "ohsas 18001"
+    ]
+  },
+  {
+    "id": "CAP-023",
+    "title": "Custom Web Portal Development #23",
+    "sector": "IT Services",
+    "description": "Built a citizen/customer-facing web portal with role-based access, payment gateway integration and analytics dashboard for a SME client.",
+    "certifications": [
+      "PEC Registered",
+      "Microsoft Gold Partner"
+    ],
+    "year_completed": 2025,
+    "contract_value_pkr": 40000000,
+    "duration_months": 9,
+    "client_type": "SME",
+    "tags": [
+      "it services",
+      "sme",
+      "pec registered",
+      "microsoft gold partner"
+    ]
+  },
+  {
+    "id": "CAP-024",
+    "title": "Highway Rehabilitation Project #24",
+    "sector": "Construction",
+    "description": "Executed rehabilitation of a 30 km highway segment including asphalt overlay, drainage works and road safety signage for a Multinational Corporation client.",
+    "certifications": [
+      "PEC Registered"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 40000000,
+    "duration_months": 6,
+    "client_type": "Multinational Corporation",
+    "tags": [
+      "construction",
+      "multinational corporation",
+      "pec registered"
+    ]
+  },
+  {
+    "id": "CAP-025",
+    "title": "Commercial Building Construction #25",
+    "sector": "Construction",
+    "description": "Delivered turnkey construction of a 3-storey commercial building including civil works, electromechanical fit-out and HVAC for a SME client.",
+    "certifications": [
+      "ISO 27001"
+    ],
+    "year_completed": 2023,
+    "contract_value_pkr": 40000000,
+    "duration_months": 6,
+    "client_type": "SME",
+    "tags": [
+      "construction",
+      "sme",
+      "iso 27001"
+    ]
+  },
+  {
+    "id": "CAP-026",
+    "title": "Water Supply Scheme #26",
+    "sector": "Construction",
+    "description": "Constructed a water supply scheme covering 3 households including overhead tanks, distribution network and filtration plant for a Private Enterprise client.",
+    "certifications": [
+      "AWS Advanced Tier Partner"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 5000000,
+    "duration_months": 12,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "construction",
+      "private enterprise",
+      "aws advanced tier partner"
+    ]
+  },
+  {
+    "id": "CAP-027",
+    "title": "Fleet Management & Logistics Optimization #27",
+    "sector": "Logistics",
+    "description": "Implemented a fleet tracking and route optimization system covering 10 vehicles, reducing fuel costs and delivery times for a NGO / Donor-funded client.",
+    "certifications": [
+      "ISO 14001",
+      "Microsoft Gold Partner",
+      "ISO 27001"
+    ],
+    "year_completed": 2024,
+    "contract_value_pkr": 500000000,
+    "duration_months": 6,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "logistics",
+      "ngo / donor-funded",
+      "iso 14001",
+      "microsoft gold partner",
+      "iso 27001"
+    ]
+  },
+  {
+    "id": "CAP-028",
+    "title": "Warehouse Automation Rollout #28",
+    "sector": "Logistics",
+    "description": "Rolled out barcode-based inventory and warehouse management automation across 25 warehouses for a Multinational Corporation client.",
+    "certifications": [
+      "OHSAS 18001",
+      "PEC Registered",
+      "CMMI Level 3"
+    ],
+    "year_completed": 2020,
+    "contract_value_pkr": 12000000,
+    "duration_months": 3,
+    "client_type": "Multinational Corporation",
+    "tags": [
+      "logistics",
+      "multinational corporation",
+      "ohsas 18001",
+      "pec registered",
+      "cmmi level 3"
+    ]
+  },
+  {
+    "id": "CAP-029",
+    "title": "Last-Mile Delivery Network Setup #29",
+    "sector": "Logistics",
+    "description": "Established a last-mile delivery network covering 20 cities including hub setup and rider onboarding for a Multinational Corporation client.",
+    "certifications": [
+      "OHSAS 18001"
+    ],
+    "year_completed": 2025,
+    "contract_value_pkr": 5000000,
+    "duration_months": 3,
+    "client_type": "Multinational Corporation",
+    "tags": [
+      "logistics",
+      "multinational corporation",
+      "ohsas 18001"
+    ]
+  },
+  {
+    "id": "CAP-030",
+    "title": "Hospital Information System Deployment #30",
+    "sector": "Healthcare IT",
+    "description": "Deployed an integrated Hospital Information System (HIS) including EMR, lab and pharmacy modules across 15 facilities for a Government client.",
+    "certifications": [
+      "Microsoft Gold Partner",
+      "ISO 14001",
+      "CMMI Level 3"
+    ],
+    "year_completed": 2020,
+    "contract_value_pkr": 40000000,
+    "duration_months": 6,
+    "client_type": "Government",
+    "tags": [
+      "healthcare it",
+      "government",
+      "microsoft gold partner",
+      "iso 14001",
+      "cmmi level 3"
+    ]
+  },
+  {
+    "id": "CAP-031",
+    "title": "Telemedicine Platform Development #31",
+    "sector": "Healthcare IT",
+    "description": "Developed a telemedicine platform supporting video consultations and e-prescriptions, scaled to 8 registered doctors for a NGO / Donor-funded client.",
+    "certifications": [
+      "AWS Advanced Tier Partner",
+      "ISO 27001"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 40000000,
+    "duration_months": 3,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "healthcare it",
+      "ngo / donor-funded",
+      "aws advanced tier partner",
+      "iso 27001"
+    ]
+  },
+  {
+    "id": "CAP-032",
+    "title": "4G/LTE Network Rollout Support #32",
+    "sector": "Telecom",
+    "description": "Provided site acquisition, civil works and equipment installation support for a 3-site 4G/LTE rollout for a SME client.",
+    "certifications": [
+      "ISO 14001"
+    ],
+    "year_completed": 2025,
+    "contract_value_pkr": 5000000,
+    "duration_months": 3,
+    "client_type": "SME",
+    "tags": [
+      "telecom",
+      "sme",
+      "iso 14001"
+    ]
+  },
+  {
+    "id": "CAP-033",
+    "title": "OSS/BSS Integration #33",
+    "sector": "Telecom",
+    "description": "Integrated OSS/BSS systems enabling automated billing and provisioning for 20 subscribers for a Multinational Corporation client.",
+    "certifications": [
+      "ISO 14001"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 40000000,
+    "duration_months": 18,
+    "client_type": "Multinational Corporation",
+    "tags": [
+      "telecom",
+      "multinational corporation",
+      "iso 14001"
+    ]
+  },
+  {
+    "id": "CAP-034",
+    "title": "Learning Management System Rollout #34",
+    "sector": "Education",
+    "description": "Implemented a Learning Management System (LMS) for 20 institutions including content migration and faculty training for a Government client.",
+    "certifications": [
+      "OHSAS 18001",
+      "Microsoft Gold Partner"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 75000000,
+    "duration_months": 24,
+    "client_type": "Government",
+    "tags": [
+      "education",
+      "government",
+      "ohsas 18001",
+      "microsoft gold partner"
+    ]
+  },
+  {
+    "id": "CAP-035",
+    "title": "School Digitization Programme #35",
+    "sector": "Education",
+    "description": "Digitized administrative and academic records for 8 schools, including biometric attendance and a parent-facing mobile app for a Private Enterprise client.",
+    "certifications": [
+      "AWS Advanced Tier Partner",
+      "ISO 9001",
+      "PEC Registered"
+    ],
+    "year_completed": 2021,
+    "contract_value_pkr": 40000000,
+    "duration_months": 2,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "education",
+      "private enterprise",
+      "aws advanced tier partner",
+      "iso 9001",
+      "pec registered"
+    ]
+  },
+  {
+    "id": "CAP-036",
+    "title": "Solar Power Plant Installation #36",
+    "sector": "Energy",
+    "description": "Installed a 15 MW solar power plant including grid synchronization and a 12-month O&M contract for a Government client.",
+    "certifications": [
+      "AWS Advanced Tier Partner"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 500000000,
+    "duration_months": 4,
+    "client_type": "Government",
+    "tags": [
+      "energy",
+      "government",
+      "aws advanced tier partner"
+    ]
+  },
+  {
+    "id": "CAP-037",
+    "title": "Energy Audit & Efficiency Programme #37",
+    "sector": "Energy",
+    "description": "Conducted an energy audit across 5 facilities and implemented efficiency retrofits reducing consumption for a Private Enterprise client.",
+    "certifications": [
+      "ISO 27001",
+      "CMMI Level 3"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 12000000,
+    "duration_months": 6,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "energy",
+      "private enterprise",
+      "iso 27001",
+      "cmmi level 3"
+    ]
+  },
+  {
+    "id": "CAP-038",
+    "title": "Digital Tax Collection System #38",
+    "sector": "Public Sector",
+    "description": "Built a digital tax assessment and collection system covering 50 municipal units, including online payment integration for a SME client.",
+    "certifications": [
+      "AWS Advanced Tier Partner",
+      "PEC Registered",
+      "ISO 14001"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 12000000,
+    "duration_months": 18,
+    "client_type": "SME",
+    "tags": [
+      "public sector",
+      "sme",
+      "aws advanced tier partner",
+      "pec registered",
+      "iso 14001"
+    ]
+  },
+  {
+    "id": "CAP-039",
+    "title": "Citizen Grievance Redressal Portal #39",
+    "sector": "Public Sector",
+    "description": "Developed an online grievance redressal and case-tracking portal handling over 10 cases annually for a NGO / Donor-funded client.",
+    "certifications": [
+      "PMP Certified Team"
+    ],
+    "year_completed": 2020,
+    "contract_value_pkr": 75000000,
+    "duration_months": 18,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "public sector",
+      "ngo / donor-funded",
+      "pmp certified team"
+    ]
+  },
+  {
+    "id": "CAP-040",
+    "title": "Cybersecurity Assessment & Hardening #40",
+    "sector": "IT Services",
+    "description": "Performed a cybersecurity risk assessment and hardened infrastructure for 25 critical systems, aligned with ISO 27001 for a NGO / Donor-funded client.",
+    "certifications": [
+      "ISO 27001",
+      "AWS Advanced Tier Partner"
+    ],
+    "year_completed": 2025,
+    "contract_value_pkr": 12000000,
+    "duration_months": 2,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "it services",
+      "ngo / donor-funded",
+      "iso 27001",
+      "aws advanced tier partner"
+    ]
+  },
+  {
+    "id": "CAP-041",
+    "title": "Enterprise ERP Implementation #41",
+    "sector": "IT Services",
+    "description": "Designed and deployed a cloud-based ERP covering finance, HR and procurement modules for a Private Enterprise client, including data migration and staff training.",
+    "certifications": [
+      "ISO 27001",
+      "CMMI Level 3"
+    ],
+    "year_completed": 2023,
+    "contract_value_pkr": 75000000,
+    "duration_months": 4,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "it services",
+      "private enterprise",
+      "iso 27001",
+      "cmmi level 3"
+    ]
+  },
+  {
+    "id": "CAP-042",
+    "title": "Network Infrastructure Upgrade #42",
+    "sector": "IT Services",
+    "description": "Upgraded core network infrastructure including routers, switches and a redundant fibre backbone across 15 regional offices for a NGO / Donor-funded client.",
+    "certifications": [
+      "AWS Advanced Tier Partner",
+      "ISO 9001",
+      "PEC Registered"
+    ],
+    "year_completed": 2020,
+    "contract_value_pkr": 500000000,
+    "duration_months": 9,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "it services",
+      "ngo / donor-funded",
+      "aws advanced tier partner",
+      "iso 9001",
+      "pec registered"
+    ]
+  },
+  {
+    "id": "CAP-043",
+    "title": "Custom Web Portal Development #43",
+    "sector": "IT Services",
+    "description": "Built a citizen/customer-facing web portal with role-based access, payment gateway integration and analytics dashboard for a NGO / Donor-funded client.",
+    "certifications": [
+      "ISO 27001",
+      "AWS Advanced Tier Partner"
+    ],
+    "year_completed": 2024,
+    "contract_value_pkr": 12000000,
+    "duration_months": 4,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "it services",
+      "ngo / donor-funded",
+      "iso 27001",
+      "aws advanced tier partner"
+    ]
+  },
+  {
+    "id": "CAP-044",
+    "title": "Highway Rehabilitation Project #44",
+    "sector": "Construction",
+    "description": "Executed rehabilitation of a 30 km highway segment including asphalt overlay, drainage works and road safety signage for a Private Enterprise client.",
+    "certifications": [
+      "PEC Registered",
+      "CMMI Level 3",
+      "AWS Advanced Tier Partner"
+    ],
+    "year_completed": 2021,
+    "contract_value_pkr": 75000000,
+    "duration_months": 6,
+    "client_type": "Private Enterprise",
+    "tags": [
+      "construction",
+      "private enterprise",
+      "pec registered",
+      "cmmi level 3",
+      "aws advanced tier partner"
+    ]
+  },
+  {
+    "id": "CAP-045",
+    "title": "Commercial Building Construction #45",
+    "sector": "Construction",
+    "description": "Delivered turnkey construction of a 12-storey commercial building including civil works, electromechanical fit-out and HVAC for a SME client.",
+    "certifications": [
+      "OHSAS 18001"
+    ],
+    "year_completed": 2022,
+    "contract_value_pkr": 75000000,
+    "duration_months": 2,
+    "client_type": "SME",
+    "tags": [
+      "construction",
+      "sme",
+      "ohsas 18001"
+    ]
+  },
+  {
+    "id": "CAP-046",
+    "title": "Water Supply Scheme #46",
+    "sector": "Construction",
+    "description": "Constructed a water supply scheme covering 12 households including overhead tanks, distribution network and filtration plant for a Government client.",
+    "certifications": [
+      "PMP Certified Team",
+      "ISO 14001",
+      "PEC Registered"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 120000000,
+    "duration_months": 4,
+    "client_type": "Government",
+    "tags": [
+      "construction",
+      "government",
+      "pmp certified team",
+      "iso 14001",
+      "pec registered"
+    ]
+  },
+  {
+    "id": "CAP-047",
+    "title": "Fleet Management & Logistics Optimization #47",
+    "sector": "Logistics",
+    "description": "Implemented a fleet tracking and route optimization system covering 25 vehicles, reducing fuel costs and delivery times for a SME client.",
+    "certifications": [
+      "ISO 27001"
+    ],
+    "year_completed": 2024,
+    "contract_value_pkr": 250000000,
+    "duration_months": 2,
+    "client_type": "SME",
+    "tags": [
+      "logistics",
+      "sme",
+      "iso 27001"
+    ]
+  },
+  {
+    "id": "CAP-048",
+    "title": "Warehouse Automation Rollout #48",
+    "sector": "Logistics",
+    "description": "Rolled out barcode-based inventory and warehouse management automation across 8 warehouses for a SME client.",
+    "certifications": [
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "year_completed": 2019,
+    "contract_value_pkr": 120000000,
+    "duration_months": 4,
+    "client_type": "SME",
+    "tags": [
+      "logistics",
+      "sme",
+      "iso 14001",
+      "iso 9001"
+    ]
+  },
+  {
+    "id": "CAP-049",
+    "title": "Last-Mile Delivery Network Setup #49",
+    "sector": "Logistics",
+    "description": "Established a last-mile delivery network covering 12 cities including hub setup and rider onboarding for a NGO / Donor-funded client.",
+    "certifications": [
+      "CMMI Level 3"
+    ],
+    "year_completed": 2025,
+    "contract_value_pkr": 5000000,
+    "duration_months": 12,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "logistics",
+      "ngo / donor-funded",
+      "cmmi level 3"
+    ]
+  },
+  {
+    "id": "CAP-050",
+    "title": "Hospital Information System Deployment #50",
+    "sector": "Healthcare IT",
+    "description": "Deployed an integrated Hospital Information System (HIS) including EMR, lab and pharmacy modules across 5 facilities for a NGO / Donor-funded client.",
+    "certifications": [
+      "ISO 14001",
+      "CMMI Level 3",
+      "OHSAS 18001"
+    ],
+    "year_completed": 2025,
+    "contract_value_pkr": 800000000,
+    "duration_months": 18,
+    "client_type": "NGO / Donor-funded",
+    "tags": [
+      "healthcare it",
+      "ngo / donor-funded",
+      "iso 14001",
+      "cmmi level 3",
+      "ohsas 18001"
+    ]
+  }
+]
